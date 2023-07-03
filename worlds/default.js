@@ -35,9 +35,9 @@ export function init(Constants) {
                 translation: [0, -1.5736032771350863, -0.673165032147081],
                 rotation: [0, 0, 0, 1],
                 name: "/LifeBelowGEO.glb",
-                dataLocation: "./assets/3d/LifeBelowGEO.glb",
+                dataLocation: "./assets/3d/LifeBelowGEO_002.glb",
                 dataScale: [1, 1, 1],
-                fileName: "/LifeBelowGEO.glb",
+                fileName: "/LifeBelowGEO_002.glb",
                 modelType: "glb",
                 shadow: true,
                 // singleSided: true,
@@ -50,8 +50,9 @@ export function init(Constants) {
                 layers: ["light"],
                 type: "lighting",
                 behaviorModules: ["Light"],
-                dataLocation: "3OF2-s4U1ZOJduGATmLEIXo1iTkQHd5ZBknKgL5SvqpQJzs7Pzx1YGApJiMqPGE6PGEsPSA-Oio7YSYgYDpgCCsZLTYjBjwOJB4sDRcrfAg3Ljk2OBoEGBYWfWAmIGEsPSA-Oio7YSImLD0gOSo9PCpgPwB9AAIIISx8YiYneScqKyQaIisNLHkaGT8YKg56JQwQfHstPiNiGQ49e2ArLjsuYCMBPgMiCQt3OQskGhcleSp9HQIIfXseHgo7EAo9CB48FRwpegsCLH4OIwY",
-                fileName: "/abandoned_parking_4k.jpg",
+                // dataLocation: "3OF2-s4U1ZOJduGATmLEIXo1iTkQHd5ZBknKgL5SvqpQJzs7Pzx1YGApJiMqPGE6PGEsPSA-Oio7YSYgYDpgCCsZLTYjBjwOJB4sDRcrfAg3Ljk2OBoEGBYWfWAmIGEsPSA-Oio7YSImLD0gOSo9PCpgPwB9AAIIISx8YiYneScqKyQaIisNLHkaGT8YKg56JQwQfHstPiNiGQ49e2ArLjsuYCMBPgMiCQt3OQskGhcleSp9HQIIfXseHgo7EAo9CB48FRwpegsCLH4OIwY",
+                dataLocation: "./assets/sky/realistic_empty_underwater_scene_well_lit.jpg",
+                fileName: "/realistic_empty_underwater_scene_well_lit.jpg",
                 dataType: "jpg",
             }
         },
@@ -64,8 +65,8 @@ export function init(Constants) {
                 name: "/untitled3.glb",
                 animationClipIndex: 0,
                 animationStartTime: 30616,
-                // dataLocation: "./assets/3d/untitled3.glb",    //fishes
-                dataLocation: "./assets/3d/LBW_Dirty.glb",    //polluted items            
+                dataLocation: "./assets/3d/untitled3.glb",    //fishes
+                // dataLocation: "./assets/3d/LBW_Dirty.glb",    //polluted items            
                 dataScale: [1, 1, 1],
                 fileName: "/untitled3.glb",
                 modelType: "glb",
